@@ -91,7 +91,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 10px 20px;
-    position: relative;
+    position: static;
     width: 100%;
     bottom: 0;
     display: flex;
@@ -129,11 +129,11 @@ footer {
     padding: 5px;
 }
 
-.loja-2011 img {
+.loja-2011 img{
     max-width: 100%; /* Redimensiona a imagem para caber dentro do contêiner */
     height: auto; /* Mantém a proporção da imagem */
+    
 }
-/* ... Outras regras CSS ... */
 
 form {
     background-color: #dddddd;
@@ -159,6 +159,7 @@ form textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 20px;
+    max-height: 450px;
 }
 
 form button[type="submit"] {
