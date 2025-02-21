@@ -23,6 +23,13 @@ header {
     text-align: center;
     font-size: 22px;
     margin: auto;
+    max-width: 70%;
+}
+
+.sub a:hover{
+    transform: scale(1.1);
+    color: #9b59b6;
+    font-weight: bold;
 }
 
 .fotoicone img {
@@ -121,7 +128,8 @@ footer {
 
 #historia:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+    border-radius: 15px;
 }
 .loja-2011 {
     display: flex;
